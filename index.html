@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Nepal</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/p-1.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Everest Base Camp Trekking </h3>
+                <p>>Trek to the base of the world’s highest peak, <br>
+                    >Mount Everest
+Hike through traditional Sherpa villages & learn more about their Buddhist culture
+Visit old hermitages and ancient monasteries<br>
+
+</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $14500.00 <span>$32999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Annapurna Circuit Trek </h3>
+                <p>Enjoy trekking on one of the best trails in the world<br>
+Cross the world's highest navigable pass<br> the Thorong La Pass (5416m)
+See Annapurna I, II, III and IV as well as Dhaulagiri and Machapuchare mountains up close<br>
+Travel to the world's deepest gorge, the Kali Gandaki Gorge</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $560.00 <span>$999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-3.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> 10 Day Nepal Luxury Tour</h3>
+                <p>Place covered:  Kathmandu- Chitwan- lumbini Pokhara-Nagarkot
+                </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $5555.00 <span>$11111.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-4.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> NEPAL EXPERIENCE TOUR WITH TREKKING </h3>
+                <p>NEPAL EXPERIENCE TOUR WITH TREKKING
+                Nepal Experience Tour with Trekking is the ultimate adventure holiday in Nepal that includes sightseeing of world Heriatge site, Holy place and inspring culture, Trek to Himalayan Ghorepani, two days white water river rafting, exciting sightseeing of Pokhara, adventures activities paragliding and Wildlife Jungle Safari in Chitwan National Park. Nepal offers different Multi activity holiday and most of visitors like to combine different activities in one trip and we have done same by putting adventure, culture, Trekking, Sightseeing in one tour.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $3544.00 <span>$12999.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-5.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> NEPAL LUXURY ESCAPE </h3>
+                <p>NEPAL LUXURY ESCAPE
+                Nepal Luxury Escape and trekking experience in Annapurna region. Enjoy 14 Days Tour in Nepal with incredible experience trekking in Himalayas with great Wi-Fi access and warm, comfortable accommodation. Nepal Luxury Adventure is full flexible tour package that  features all the major highlights of Nepal. These package for the traveler who want to have clam and peaceful holiday with low altitude trekking experience in Himalayas, Rafting at Seti River and Jungle Safari in Chitwan National Park.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $899.00 <span>$1299.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/p-6.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> BREAKFAST AT EVEREST </h3>
+                <p>Breakfast at Everest is one the most popular trip in Nepal. It is special designed tour for those who do not have enough time to Everest Base Camp Trek. If you cant trek than you can fly close to Everest with experience landing at Kala Patthar. Experience once in a lifetime holiday to Everest region and enjoy a breakfast with a view within 3 to 4 hours. Our Breakfast in Everest will be at the elevation of 3962m. Hotel Everest View is the world highest placed hotel that offers the mesmerizing panoramic views of Everest, Lhotse, Nuptse, Ama Dablam, Thamserku, Kongde Ri and many more.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $1350.00 <span>$2000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>When it comes to hospitality in Nepal, it is not only limited to hotels and restaurants. People have also started the concept of homestay. Homestays are a popular form of hospitality where visitors stay in a residence with the locals of the place where they are travelling.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Indeed, a vast range of flavours can be found just in daal bhaat, the national dish of rice, lentils, lightly curried vegetables and pickles; though it can also, sometimes, be disappointingly bland. In the Kathmandu Valley, the indigenous Newars have their own unique cuisine of spicy meat and vegetable dishes, while a vast range of Indian curries, breads, snacks and sweets comes into play in the Terai; in the high mountains, the traditional diet consists of noodle soups, potatoes and toasted flour. “Chow-chow” packet noodles, cooked up as a spicy soup snack, are ubiquitous. Vegetarians will feel at home in Nepal, since meat is considered a luxury. Tourist menus invariably include veggie items.
+
+Outside the tourist areas food is very inexpensive, and a simple meal and drink may well set you back less than Rs100. In places like Kathmandu and Pokhara, however, costs can quickly add up: you might pay around Rs250–500 for a main meal at a tourist-oriented restaurant, and even more at a posher place. Note that few restaurants include government taxes (13 percent) and service charges (10 percent) in their menu prices.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>Nepal, a country most famous for its trekking, mountain climbing and adventure sports, also a host to the tallest mountains in the world, the Everest, the safety in Nepal is quite good contrary to many beliefs. It is quite isolated from the rest of the world, apart from its tourism industry, which brings in most of the revenue as well. There are just a few things you should keep in mind as an outsider to have a smooth experience since the culture and traditions of this country are still intact due to its isolation. People are quite religious here, which also makes it safer than most western countries at times. Since tourism is the main economic foundation of the country, tourists are bound to be treated well. But still, there are a few things you should always keep in mind.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>It is unsurpassed that the sheer diversity Nepal boasts, from steamy jungle and Terai to the icy peaks of the world's highest mountains means that the range of activities on offer. Trekking, mountaineering, rafting in spectacular scenery are just three things Nepal is famous for.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Air Travel in Nepal<br>
+Flying is the transport of choice for a lot of visitors. It's certainly the fastest way to travel across Nepal. When faced with the prospect of a cramped 24-hour bus ride, shelling out USD $100 for an internal flight certainly seems like a small price to pay!</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Adventure in Nepal - "Unusual Experience"
+If you want to experience a vacation that you and your loved ones will surely enjoy, it'd be best to check on holiday deals to the Himalayas. Here, you and your family and friends will surely enjoy a vacation that can relieve you of the stress brought by the daily grind. Look for the best flight deals to Nepal and visit here now so that you can witness the awe-inspiring and world-famous Himalayas.
+
+Adventure travel is one of the fastest growing but least understood forms of international tourism. Nepal is one among the best destinations in the world for adventure tourism which offers an excess of outdoor activities from Paragliding near the mountains to waiting for the Bengal tiger in the dense forest of Chitwan. The history of adventure tourism in Nepal starts from the early attempts to ascend world’s highest peak Mt. Everest some about five decades ago. The role of Adventure Tourism in the economic development of remote areas and its impact on local community, economy, and the environment are not fully figured out, even though adventure tourism has been adopted enthusiastically by many countries like Nepal. Here we are not to analyze the impact of adventure tourism in Nepal but we believe that adventure travel will bring many positive impacts on Nepal's national economy, indigenous populations, tourism industry, and conservation development. With its steady growth, adventure tourism in Nepal will play an increasingly important role for national and local development in the frontier areas.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/g-1.jpg" alt="">
+            <div class="content">
+                <h3>bouddha</h3>
+                <p>bouddhanath</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-2.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>Religion:buddha</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-3.jpg" alt="">
+            <div class="content">
+                <h3>Everest</h3>
+                <p>Mount Everst base camp.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-4.jpg" alt="">
+            <div class="content">
+                <h3>Belkot-gadi </h3>
+                <p>My vilage-
+                    Niranjana SS<br>
+                Nuwakot , belkotgadi-10</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-5.jpg" alt="">
+            <div class="content">
+                <h3>Rara lake</h3>
+                <p>Pokhara is a city on Phewa Lake, in central Nepal</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-6.jpg" alt="">
+            <div class="content">
+                <h3>Adventure Sports
+</h3>
+                <p>Pokhara paragliding $35.00 Per Person</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-7.jpg" alt="">
+            <div class="content">
+                <h3>Chitwan National Park</h3>
+                <p>Chitwan National Park is a preserved area in south-central Nepal, known for its biodiversity.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-8.jpg" alt="">
+            <div class="content">
+                <h3>Bhaktapur.</h3>
+                <p>Bhaktapur, known locally as Khwopa, is a city in the east corner of the Kathmandu Valley .</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/g-9.jpg" alt="">
+            <div class="content">
+                <h3>Art</h3>
+                <p>religious paintings with Hindu and Buddhist subjects, almost all Newa art by the Newari people of the Kathmandu valley.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic1.png" alt="">
+                    <h3>Miss.S</h3>
+                    <p>A Perfect 10 Days in Nepal
+
+I truly had an amazing time. Kirpa organized the perfect trip which included a trek through the Himalayas and a short 2 day visit to the Chitwan National Park. My trek was exactly what I wanted-challenging! I was able to enjoy breathtaking views of the Himalayas. My guide and porter (both named Pemba) were professional, energetic, supportive and kind. I could not have asked for a better team.
+
+I also greatly appreciated Kirpa's agility. She was nimble on her feet when my flight to Chitwan begin was canceled. She quickly arranged for a driver and I was on my way, having lost little time.
+
+Thank you to the whole Himalayan Treks team. I had a trip of a lifetime.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic2.png" alt="">
+                    <h3>Miss.S Na-cheyenako manxya</h3>
+                 <p class="has-text-align-center">Suna Safar Par<br>Prem Nagar Hai<br>Mil Payenge Kya Hum Tumse</p>
+
+
+
+<p class="has-text-align-center">Jo Raat Beeti<br>Subah Toh Aayi Na</p>
+
+
+
+<p class="has-text-align-center">Chhoti Umar Par<br>Badi Nazar Hai<br>Mil Jayenge Hi Hum Tumse</p>
+
+
+
+<p class="has-text-align-center">Chupa Chupai<br>Nazar Tu Aayi Na</p>
+
+
+
+
+
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic3.png" alt="">
+                    <h3>Miss.A</h3>
+                    <p>Yogesh has been very good and helpful, he made my whole trip. Everything went exactly as in the itinerary, except for a minor mistake on Temple Tree Hotel check out and pick up time. The hotel staff told me the wrong time which was one and half hour earlier than the arranged. The last day photograph tour was the best, far beyond my exception. The guide was a super kind and knowledgeable gentleman. He was the best during this trip.
+
+Overall, great experience. I will surely consider Social Tour next time in Nepal.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/pic4.png" alt="">
+                    <h3>Miss.B</h3>
+                    <p>I had a 5 days break from work and decided to visit Nepal. From the onset of the trip, I had support from Kripa who provided me with a packed program that captured all of historical and cultural places in the Kathmandu Valley. It was a mesmerising experience made perfect by the local guide Rajiv who was able to give me many insights and information about Nepal. I visited temples, palaces, museums but the highlight of my trip was a hike in the mountain.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>Visit Nepal.com was founded by a team of professional trekking & climbing guides with a decade long experience in adventure tourism in the Himalaya. It is officially registered with the Ministry of Tourism, government of Nepal and associated to different national tourism– related organizations – Trekking Agencies Association of Nepal (TAAN), Nepal Mountaineering Association (NMA), Nepal Tourism Board (NTB) Kathmandu Environmental Educational Project (KEEP) We are located in the central Kathmandu at Thamel, the tourist hub.
+</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/bichanpoudel">facebook</a>
+            <a href="https://www.instagram.com/bichan.poudel/">instagram</a>
+            <a href="https://twitter.com/Bichan_poudel">twitter</a>
+            <a href="https://www.linkedin.com/in/bichanpoudel/">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> www.bichanpoudel.com.np </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+</html>
